@@ -15,7 +15,8 @@ font-size:200%;
 }
 div.Menu
 {
-border: 1px solid blue;
+border-left:1px solid blue;
+border-right: 1px solid blue;
 text-align:center;
 
 }
@@ -32,7 +33,10 @@ text-align:center;
 	margin-left: 1px;
 	for internal space */
 }
-
+.Menu button {
+	background-color: lightblue;
+	border: none;
+}
 
 
 
@@ -73,4 +77,7 @@ background-attachment: scroll;
 https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
 
 https://www.geeksforgeeks.org/how-to-apply-style-to-parent-if-it-has-child-with-css/
-https://developer.mozilla.org/en-US/docs/Web/CSS/border-style*/
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+https://stackoverflow.com/questions/7240130/set-the-same-value-to-multiple-properties-css 
+get saas || less
+ */
