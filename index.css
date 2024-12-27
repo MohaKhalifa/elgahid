@@ -1,4 +1,13 @@
-body {
+.Parbers {
 	background-color:lightblue;
 	color:red;
+}
+body {
+font-family: "Times New Roman";
+font-size: 17;
+background-image:url("https://wallpapercave.com/wp/wp5185840.jpg");
+background-repeat:no-repeat; 
+background-position: center;
+background-attachment: scroll;
+color: white;
 }
