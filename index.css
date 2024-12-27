@@ -1,13 +1,31 @@
-.Parbers {
+.Barbers {
 	background-color:lightblue;
 	color:red;
 }
 body {
-font-family: "Times New Roman";
-font-size: 17;
-background-image:url("https://wallpapercave.com/wp/wp5185840.jpg");
-background-repeat:no-repeat; 
-background-position: center;
-background-attachment: scroll;
-color: white;
+font-family:"Times New Roman";
+font-size:150%;
+background-color:lightblue;
+color: rgb(00,00,00);
 }
+.BreifIntro {
+font-family:"Times New Roman"; 
+text-align:center;
+}
+
+
+
+
+
+
+/*  old, relize that noone sets images as bgs- 
+ *  go with colors and bgs for divs and spans
+ *  background-image:url("https://wallpapercave.com/wp/wp5185840.jpg");
+background-repeat:no-repeat; 
+just hold on we're going home!!
+ul.Lover {
+ list-style-type: none;
+}
+background-position: center;
+https://www.w3.org/Style/Examples/007/fonts.en.html
+background-attachment: scroll;*/
