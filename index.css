@@ -13,6 +13,37 @@ font-family:"Times New Roman";
 text-align:center;
 font-size:200%;
 }
+div.Menu
+{
+border: 1px solid blue;
+text-align:center;
+
+}
+
+.Menu li
+{
+	list-style-type: none;
+	cursor: pointer;
+	border-bottom: 1.3px solid darkred;
+	border-radius:12px;
+	margin-right: 40px;
+	/*padding-right: 4px;
+	 * cring
+	margin-left: 1px;
+	for internal space */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27,6 +58,19 @@ just hold on we're going home!!
 ul.Lover {
  list-style-type: none;
 }
+syntax
+.class elemnt;
+.class parentelement > childofp > clildofclid {}
+
+initail padding for li is 40px
+
+
+
+
 background-position: center;
 https://www.w3.org/Style/Examples/007/fonts.en.html
-background-attachment: scroll;*/
+background-attachment: scroll;
+https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item
+
+https://www.geeksforgeeks.org/how-to-apply-style-to-parent-if-it-has-child-with-css/
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-style*/
