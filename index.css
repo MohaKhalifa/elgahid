@@ -34,10 +34,13 @@ text-align:center;
 	for internal space */
 }
 .Menu button {
-	background-color: lightblue;
-	border: none;
+	background-color: red;
+	border: 2px solid black;
 }
-
+.Menu li:hover {
+	color:red;
+	background-color:lightblue;
+}
 
 
 
