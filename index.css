@@ -1,55 +1,59 @@
-.Barbers {
-	background-color:lightblue;
-	color:red;
-}
 body {
 font-family:"Times New Roman";
 font-size:150%;
-background-color:lightblue;
-color: rgb(00,00,00);
+background-color:rgb(238,230,255);
+color:rgb(51,0,51);
+}
+
+header {
+	font-size: 26px;
+	background-color:rgb(201,255,229);
+	color:rgb(51,105,75);
+	padding-bottom:9.2;
 }
 .BreifIntro {
-font-family:"Times New Roman"; 
 text-align:center;
 font-size:200%;
 }
-div.Menu
-{
-border-left:1px solid blue;
-border-right: 1px solid blue;
-text-align:center;
 
+div.Menu 
+{
+	border-left:1px solid blue;
+	border-right: 1px solid blue;
+	text-align:center;
 }
 
 .Menu li
 {
 	list-style-type: none;
-	cursor: pointer;
-	border-bottom: 1.3px solid darkred;
-	border-radius:12px;
 	margin-right: 40px;
-	/*padding-right: 4px;
-	 * cring
-	margin-left: 1px;
-	for internal space */
+	border:non;
+	display: inline-block;
+
 }
-.Menu button {
+a:active {
+	
+	text-decoration-line:none;
+}
+a:hover {
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+a:visited {
+
+	text-decoration: none;
+
+}
+ button.Menu {
 	background-color: red;
 	border: 2px solid black;
+	align:right;
 }
-.Menu li:hover {
-	color:red;
-	background-color:lightblue;
+button.Menu:hover {
+	background-color: black;
+	color: red;
+	cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -65,6 +69,16 @@ just hold on we're going home!!
 ul.Lover {
  list-style-type: none;
 }
+
+.Menu li:hover {
+	color:red;
+	background-color:lightblue;
+}
+
+
+
+
+
 syntax
 .class elemnt;
 .class parentelement > childofp > clildofclid {}
