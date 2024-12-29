@@ -8,14 +8,9 @@ color:rgb(51,0,51);
 header {
 	font-size: 26px;
 	background-color:rgb(201,255,229);
-	color:rgb(51,105,75);
-	padding-bottom:9.2;
+	color:rgb(0,0,26);
+	margin-bottom:4px;
 }
-.BreifIntro {
-text-align:center;
-font-size:200%;
-}
-
 div.Menu 
 {
 	border-left:1px solid blue;
@@ -23,40 +18,61 @@ div.Menu
 	text-align:center;
 }
 
-.Menu li
+.Menu li 
 {
 	list-style-type: none;
 	margin-right: 40px;
 	border:non;
 	display: inline-block;
+	padding-top: 4px;
+	padding-bottom:4px;
+	padding-left: 7px;
+	padding-right: 7px;
+/*	animation-name:blink;
+	animation-duration: 1s;
+*/
+	animation: blink 1s infinite;
+}
 
-}
 a:active {
-	
-	text-decoration-line:none;
+	text-decoration:none;
 }
+
 a:hover {
 	text-decoration-line: underline;
 	cursor: pointer;
 }
+
 a:visited {
 
 	text-decoration: none;
 
 }
- button.Menu {
+
+button.Menu {
 	background-color: red;
 	border: 2px solid black;
-	align:right;
 }
+
 button.Menu:hover {
 	background-color: black;
 	color: red;
 	cursor: pointer;
 }
 
+.BreifIntro {
+text-align:center;
+font-size:200%;
+}
+@keyframes blink {
+	from 
+	{color:rgb(0,0,26);}
+	to 
+	{color:rgb(201,255,229);}
 
 
+
+}
 
 
 
@@ -69,6 +85,8 @@ just hold on we're going home!!
 ul.Lover {
  list-style-type: none;
 }
+https://www.w3schools.com/css/css3_animations.asp
+https://www.freecodecamp.org/news/make-it-blink-html-tutorial-how-to-use-the-blink-tag-with-code-examples/
 
 .Menu li:hover {
 	color:red;
