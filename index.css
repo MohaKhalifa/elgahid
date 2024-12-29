@@ -11,11 +11,14 @@ header {
 	color:rgb(0,0,26);
 	margin-bottom:4px;
 }
-div.Menu 
+.Menu 
 {
 	border-left:1px solid blue;
 	border-right: 1px solid black;
 	text-align:center;
+	position: sticky;
+	top:0;
+
 }
 
 .Menu li 
@@ -37,7 +40,7 @@ div.Menu
 	text-decoration: underline;
 }
 
-a:active {
+a:active, a:link {
 	background-color:rgb(201,255,229);
 	color:black;
 }
@@ -45,16 +48,17 @@ a:active {
 a:hover {
 	cursor: pointer;
 	background-color:rgb(201,255,229);
-	color:red;
+	color:darkred;
 }
 
-a:visited a:visited:hover {
-	background-color:rgb(201,255,229);
-	color:black;
+/*fix later: color of href not changing; lol just needed a:::link*/
+a:visited {
+
 }
 
 button.Menu {
 	background-color: red;
+	display:block;
 	border: 2px solid black;
 }
 
