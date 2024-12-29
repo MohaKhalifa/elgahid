@@ -14,7 +14,7 @@ header {
 div.Menu 
 {
 	border-left:1px solid blue;
-	border-right: 1px solid blue;
+	border-right: 1px solid black;
 	text-align:center;
 }
 
@@ -22,31 +22,35 @@ div.Menu
 {
 	list-style-type: none;
 	margin-right: 40px;
-	border:non;
 	display: inline-block;
 	padding-top: 4px;
 	padding-bottom:4px;
 	padding-left: 7px;
 	padding-right: 7px;
-/*	animation-name:blink;
+/*	border-right: 1px solid black;
+	animation-name:blink;
 	animation-duration: 1s;
 */
-	animation: blink 1s infinite;
+}
+.Menu li:hover
+{
+	text-decoration: underline;
 }
 
 a:active {
-	text-decoration:none;
+	background-color:rgb(201,255,229);
+	color:black;
 }
 
 a:hover {
-	text-decoration-line: underline;
 	cursor: pointer;
+	background-color:rgb(201,255,229);
+	color:red;
 }
 
-a:visited {
-
-	text-decoration: none;
-
+a:visited a:visited:hover {
+	background-color:rgb(201,255,229);
+	color:black;
 }
 
 button.Menu {
@@ -58,19 +62,21 @@ button.Menu:hover {
 	background-color: black;
 	color: red;
 	cursor: pointer;
+	animation: blink 1s infinite;
+
 }
 
 .BreifIntro {
 text-align:center;
 font-size:200%;
 }
+
 @keyframes blink {
 	from 
-	{color:rgb(0,0,26);}
+	{
+	color:rgb(0,0,26);}
 	to 
 	{color:rgb(201,255,229);}
-
-
 
 }
 
