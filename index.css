@@ -57,7 +57,9 @@ a:visited {
 
 button.Menu {
 	background-color: red;
-	display:block;
+	margin:left 3px;
+	margin: right 44px;
+	display:inline-block;
 	border: 2px solid black;
 }
 
