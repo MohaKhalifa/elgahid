@@ -31,8 +31,8 @@ header {
 	padding-left: 7px;
 	padding-right: 7px;
 /*	border-right: 1px solid black;
-	*/animation-name:blink;
-	animation-duration: 1s;
+ */
+	animation: blink 1s infinite;
 }
 .Menu li:hover
 {
