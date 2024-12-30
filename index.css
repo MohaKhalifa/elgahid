@@ -32,7 +32,7 @@ header {
 	padding-right: 7px;
 /*	border-right: 1px solid black;
  */
-	animation: blink 1s infinite;
+	animation: blink 0.22s infinite;
 }
 .Menu li:hover
 {
