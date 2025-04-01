@@ -74,6 +74,8 @@ button.Menu:hover {
 .BreifIntro {
 text-align:center;
 font-size:200%;
+Color: gray;
+backgroud-color: red;
 }
 
 @keyframes blink {
@@ -84,7 +86,6 @@ font-size:200%;
 	{color:rgb(201,255,229);}
 
 }
-
 
 
 
