@@ -1,2 +1,12 @@
 /* previous deleted to*/
 /* get link. get align/ get text./get motion get cenrer/ get hover/ get inner classes/ code dept prevention/ common issues/ logo/ upload/*/
+.header {
+
+text-align:center;
+}
+.footer .li {
+display:inline-block;
+text-align:center;
+color: white;
+
+}
