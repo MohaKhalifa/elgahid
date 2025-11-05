@@ -1,5 +1,6 @@
 /* previous deleted to*/
 /* get link. get align/ get text./get motion get cenrer/ get hover/ get inner classes/ code dept prevention/ common issues/ logo/ upload/*/
+
 .header {
 
 text-align:center;
@@ -8,5 +9,10 @@ text-align:center;
 display:inline-block;
 text-align:center;
 color: white;
+
+}
+body {
+color: white;
+background-color:black;
 
 }
