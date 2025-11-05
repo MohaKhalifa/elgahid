@@ -1,5 +1,6 @@
 /* 
 how nested tags in tags and calsses work
+how to make a tag inherent proberty values from another selector, using the specified values on the second selector and discarding them on the first one>took time n gave up
 
 
 
@@ -57,7 +58,9 @@ ul {
     list-style-type:none;
 
 }
-li {
+
+
+li  {
     display:inline;
     padding-top:6px;     
     margin-left:86px ;
@@ -66,11 +69,15 @@ li {
     border-collapse:separate;
     border-spacing:10px;
 
+
 }
-.footer {
+.footer{
 
     text-align:center;
 }
+
+
+
 /*.vertit {
 
     border-right: solid 33px white;
