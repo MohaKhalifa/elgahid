@@ -8,5 +8,6 @@ if (fever =>) :
 
 addEventListener
 
+sebtyni le al hozn al Nabil
 }
 */
