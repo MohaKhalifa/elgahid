@@ -14,7 +14,7 @@ padding: between item and border then the margin between border and  imaginary b
 content man: width+ hegiht; 
 
 Fun fkt:lorem ipsum spam holder latin since the 1500
-
+opacity: through it and rgba.
 
 
 Document flow: display: divided into two, block and Inline block
@@ -34,7 +34,8 @@ previous deleted to*/
 style it button on click func shine;
 change LI
     */
-    display:inline-block;
+    display:inline-flex;
+    justify-content:flex-end;
 /*get button sticky relitive to it's main position stick to end of flex;
 when using fixed  the button wasn't effected with scrolling
 
@@ -43,7 +44,16 @@ when using fixed  the button wasn't effected with scrolling
 
 
 }
-.header {
+/*#meName{
+    display: inline-flex;
+    //get the pos of button right and the p center
+
+
+
+
+}
+*/
+.header  {
     position:sticky;
     top:0;
     background-color:black;
@@ -98,8 +108,6 @@ transition:400ms;
 
 
 .main span:hover {
-
-
 border-radius: 3px;
 background-color:darkblue;
 color:white;
@@ -108,6 +116,12 @@ width:52%;
 padding: 16px;
 /*
 box-shadow: 1px rgba(255,255,255,.99);
+https://www.w3schools.com/cssref/pr_class_cursor.php make cursur upload and give end user
+filter:invert(1);
+
+
+
+
 */
 & .main a:link {
     color: white;
@@ -133,6 +147,7 @@ text-align: center;
 
 
 a:link,a:visited,a:active {
+
     text-decoration:none;
     color: lightblue;
     transition:400ms;
