@@ -1,7 +1,12 @@
 /* 
 /*make the text bold> font-weigh; 
 same value different properties;
- 
+************************************ https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+margin is for the position you marge to;
+
+idk but put khaby lame when menu pressed onclick or go logo ltr and rtl hands up and down;
+
+
 how nested tags in tags and calsses work
 how to make a tag inherent proberty values from another selector, using the specified values on the second selector and discarding them on the first one>took time n gave up
 
@@ -29,11 +34,21 @@ previous deleted to*/
 style it button on click func shine;
 change LI
     */
-float:right;
+    display:inline-block;
+/*get button sticky relitive to it's main position stick to end of flex;
+when using fixed  the button wasn't effected with scrolling
 
 
+*/
 
 
+}
+.header {
+    position:sticky;
+    top:0;
+    background-color:black;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 p   {
     font-size: large;
@@ -48,7 +63,10 @@ display:inline-block;
 border-radius:100%;
 width:40px;
 height:40px;
-margin-top: 7px;    
+padding-bottom:7px;
+
+
+
 }
 .main span
 {
@@ -68,7 +86,14 @@ transition:400ms;
     font-size:medium;
 
 }
+.footer {
 
+
+/*little lines on the bottom; fixed by removing margin top in the .footer im fixed by removing margin top in the .footer imgg*/
+    position:sticky;
+    bottom: 0;
+    background-color:black;
+}
 
 
 
@@ -81,12 +106,18 @@ color:white;
 transition:600ms;
 width:52%;
 padding: 16px;
+/*
+box-shadow: 1px rgba(255,255,255,.99);
+*/
 & .main a:link {
     color: white;
 
 }
+/*
 
+box-shadow: 0 1px 1px 0  white;
 
+css proberty values border shadow margin: __ __ __ __; make no sense;*/
 
 }
 
@@ -134,11 +165,7 @@ ul {
 
     list-style-type:none;
     display:flex;
-   /*might need to get got */ justify-content:space-between;
-   & .footer ul {
-    display:flex;
-    justify-content: space-around;
-   }
+    justify-content:space-around;
 
 }
 
@@ -147,12 +174,7 @@ ul {
     font-size:x-large;
 }
 li  {
-    display:inline;
-    padding:20px;
-    padding-right:77px;
-    padding-left:77px;
-    border-collapse:separate;
-    border-spacing:10px;
+    display:inline-block;
 
 }
 /*
