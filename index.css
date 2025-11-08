@@ -8,6 +8,19 @@ how to make a tag inherent proberty values from another selector, using the spec
 padding: between item and border then the margin between border and  imaginary box
 content man: width+ hegiht; 
 
+Fun fkt:lorem ipsum spam holder latin since the 1500
+
+
+
+Document flow: display: divided into two, block and Inline block
+Block full horizental br before and after: div,form,h,
+inline: only the height and width no br: imgage,anchor
+    inline-block: man padding margin;
+
+
+
+
+
 ai said  seek box-sizing has some math
 previous deleted to*/
 /* get link. get align/ get text./get motion get cenrer/ get hover/ get inner classes/ code dept prevention/ common issues/ logo/ upload/*/
@@ -16,33 +29,65 @@ previous deleted to*/
 style it button on click func shine;
 change LI
     */
+float:right;
+
+
+
+
 }
 p   {
-   font-size: large;
+    font-size: large;
     font-weight: bold;
     padding-left: 32px;
     display:inline;
 }
 
+.footer img {
+
+display:inline-block;
+border-radius:100%;
+width:40px;
+height:40px;
+margin-top: 7px;    
+}
 .main span
 {
 display:inline-block;
 padding: 12px;
 width: 50%; 
+
 background-color: lightslategray;
 border:none;
 border-radius: 4px;
 margin:13px;
-
+transition:400ms;
+}
+/*cant style the links in .main overlapped with link styles L:91  even when tag changes*/
+#overlapped {
+    color:black;
+    font-size:medium;
 
 }
+
+
+
+
 .main span:hover {
 
 
-border: solid grey .001px;
 border-radius: 3px;
+background-color:darkblue;
+color:white;
+transition:600ms;
+width:52%;
+padding: 16px;
+& .main a:link {
+    color: white;
 
-    
+}
+
+
+
 }
 
 body {
@@ -50,26 +95,34 @@ color: white;
 background-color:black;
 font-family:'Times New Roman', Times, serif;
 text-align: center;
-
 }
+
+
+
+
+
 a:link,a:visited,a:active {
     text-decoration:none;
     color: lightblue;
+    transition:400ms;
 }
 .callMeIf {
 float:inline-end;
-display: inline;
 
 border: 1px solid aqua;
 padding: 4px;
-padding-right:3px;
-border-bottom:1px white solid;
 border-radius: 3px;
+margin:4px;
 }
 
 a:hover {
 font-size:large;
 opacity:.5;
+transition:400ms;
+background-color: white;
+color: black;
+padding: 7px;
+border-radius: 13px;
 }
 
 
@@ -80,6 +133,12 @@ opacity:.5;
 ul {
 
     list-style-type:none;
+    display:flex;
+   /*might need to get got */ justify-content:space-between;
+   & .footer ul {
+    display:flex;
+    justify-content: space-around;
+   }
 
 }
 
@@ -102,3 +161,4 @@ li  {
     float:inline-start;
 }
     */
+
