@@ -91,7 +91,7 @@ https://www.w3schools.com/cssref/pr_class_cursor.php make cursur upload and give
 filter:invert(1);*/
 & .main a:link {
     color: white;
-
+    transition: 400ms;
 }
 /*box-shadow: 0 1px 1px 0  white;
 css proberty values border shadow margin: __ __ __ __; make no sense;*/
@@ -149,7 +149,7 @@ li  {
 }
 .header button:hover {
     cursor:pointer;
-    animation-name: borderMe;
+    /*animation-name: borderMe;*/
     transition: 600ms;
     font-size: 1.1em;
     transition:400ms;

@@ -4,10 +4,19 @@
 //obsolete js; obfuscated js; deobfuscate k;
 
 
+/*
+?2 values for onclick
+checker for animations align with another animations
+animations for hidden items aka gelp whatching the tv and going wild with it;
+view port for mobile bot good;
+get font and whatnot
+multiple versions for page for diffferent devices;
+sizes relivant to device width and height;
+is with percentage?
 
 
 
-/*function dilemmas(fever,simaska) {
+function dilemmas(fever,simaska) {
 
 if (fever =>) :
 
