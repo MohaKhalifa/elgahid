@@ -34,5 +34,15 @@ function livemelive()
     
    alert("heyNow");
 }
+function changer() {
+
+
+  document.getElementById('dates').style.color = "red";
+}
+function liver(){
+
+  document.querySelector(body).css.color = "invert 1";
+}
+
 
 

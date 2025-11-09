@@ -18,8 +18,9 @@ opacity: through it and rgba.
 
 
 Document flow: display: divided into two, block and Inline block
-Block full horizental br before and after: div,form,h,
-inline: only the height and width no br: imgage,anchor
+
+    Block full horizental br before and after: div,form,h,
+    inline: only the height and width no br: imgage,anchor
     inline-block: man padding margin;
 
 
@@ -192,10 +193,11 @@ li  {
     display:inline-block;
 
 }
+
 /*
 #contactnotup {
     display:inline;
     float:inline-start;
 }
     */
-
+  
