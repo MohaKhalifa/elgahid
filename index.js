@@ -105,9 +105,9 @@ function changer() {
 
 
 /*looping: do {} while () exec once and then checks the con: if t exec again;  */
-
+/*
  function sarika()
-  {
+  {*/
     for ( let si = 33; si > 45; si++)
     {
     console.log(si);
@@ -118,6 +118,5 @@ while (si == 44)
 }
 */
  }
-}
-
+//  }
 
