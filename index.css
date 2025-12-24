@@ -29,15 +29,20 @@ previous deleted to*/
     /* 
 style it button on click func shine;
 change LI
-    */
+*/
+
     display:inline-flex;
     justify-content:flex-end;
-/*get button sticky relitive to it's main position stick to end of flex;
+
+/*
+get button sticky relitive to it's main position stick to end of flex;
 when using fixed  the button wasn't effected with scrolling*/
 }
 /*#meName{
     display: inline-flex;
     //get the pos of button right and the p center}*/
+
+
 .header  {
     position:sticky;
     top:0;

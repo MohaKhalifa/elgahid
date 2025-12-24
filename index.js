@@ -1,4 +1,5 @@
 /*
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_JavaScript_problems
 JS jargon;
 ASI: automatic semi-colon insertion:
 
@@ -105,18 +106,20 @@ function changer() {
 
 
 /*looping: do {} while () exec once and then checks the con: if t exec again;  */
-/*
  function sarika()
-  {*/
+  {
     for ( let si = 33; si > 45; si++)
     {
     console.log(si);
-   /* 
 while (si == 44)
 {
   console.log("ok")
 }
-*/
  }
-//  }
+  }
+sarika();
 
+
+function divasky(){
+document.getElementsByClassName("sandi").style.color = "brown";
+}
